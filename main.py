@@ -10,7 +10,7 @@ import uvicorn
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
-    title="Matrixian Data Engineering API",
+    title="To-Do management API",
     redoc_url=None,
     version="0.0.1",
 )
